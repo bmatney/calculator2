@@ -32,7 +32,8 @@ function calculate(){
       });
 }
 
-// in the h2 element with the ID "finalAnswer" insert the answer in HTML format
+// in the h2 element with the ID "finalAnswer" insert the answer we received
+// from the app.js "res.send"
 function appendAnswer(data) {
     $("#finalAnswer").html(data.answer);
 }
